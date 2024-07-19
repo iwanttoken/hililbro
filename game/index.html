@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1d1d1d;
+        }
+        #menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #1d1d1d, #000);
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+        }
+        button {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #ff0000;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+        canvas {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h1>Retro Game</h1>
+        <button id="startButton">Start Game</button>
+        <button id="summonAssistButton">Summon Assist</button>
+    </div>
+    <canvas id="gameCanvas" width="1920" height="1080"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>

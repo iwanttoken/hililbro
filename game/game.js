@@ -13,14 +13,14 @@ let score = 0;
 let keys = {};
 
 const images = {
-    background: 'game/yappers/yap.png',
-    player: 'game/yappers/sus.png',
-    enemy: 'game/yappers/holy.png',
-    moxyt: 'game/yappers/moxyt.png',
-    projectile: 'game/yappers/prok.png',
-    assist1: 'game/yappers/dolphin.png',
-    assist2: 'game/yappers/mag.png',
-    assist3: 'game/yappers/goat.png',
+    background: 'yap.png',
+    player: 'sus.png',
+    enemy: 'holy.png',
+    moxyt: 'moxyt.png',
+    projectile: 'prok.png',
+    assist1: 'dolphin.png',
+    assist2: 'mag.png',
+    assist3: 'goat.png',
 };
 
 const imageElements = {};

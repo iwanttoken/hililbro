@@ -13,14 +13,14 @@ let score = 0;
 let keys = {};
 
 const images = {
-    background: 'C:/Users/user/Desktop/yappity/yap.png',
-    player: 'C:/Users/user/Desktop/yappity/sus.png',
-    enemy: 'C:/Users/user/Desktop/yappity/holy.png',
-    moxyt: 'C:/Users/user/Desktop/yappity/moxyt.png',
-    projectile: 'C:/Users/user/Desktop/yappity/prok.png',
-    assist1: 'C:/Users/user/Desktop/yappity/dolphin.png',
-    assist2: 'C:/Users/user/Desktop/yappity/mag.png',
-    assist3: 'C:/Users/user/Desktop/yappity/goat.png',
+    background: 'yappers/yap.png',
+    player: 'yappers/sus.png',
+    enemy: 'yappers/holy.png',
+    moxyt: 'yappers/moxyt.png',
+    projectile: 'yappers/prok.png',
+    assist1: 'yappers/dolphin.png',
+    assist2: 'yappers/mag.png',
+    assist3: 'yappers/goat.png',
 };
 
 const imageElements = {};
